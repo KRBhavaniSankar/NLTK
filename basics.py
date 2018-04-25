@@ -37,4 +37,12 @@ nouns_freq = nltk.FreqDist([word for word, tag in nouns])
 print(nouns_freq.most_common(10))
 
 
-#NLP Use cases : Machine Translation, Speech Recognization systems,Q&A systems,Contexutal Recognization and Resolution, Text summerization, Text Categorization, Text analytics
+"""
+NLP Use cases : Machine Translation,
+                Speech Recognization systems,
+                Q&A systems,
+                Contexutal Recognization and Resolution,
+                Text summerization, 
+                Text Categorization, 
+                Text analytics
+"""
