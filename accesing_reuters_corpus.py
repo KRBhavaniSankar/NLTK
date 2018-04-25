@@ -20,4 +20,4 @@ print(sentences[0:5])
 #Field based acccess
 print(reuters.fileids(categories =["housing","income"]))    #printing all file id's of housing and income categories
 
-print(reuters.sents(fileids = ['test/16118', 'test/18672'])) #printing specifi file id's.
+print(reuters.sents(fileids = ['test/16118', 'test/18672'])) #printing specifi file id's
