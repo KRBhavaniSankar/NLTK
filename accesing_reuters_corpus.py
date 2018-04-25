@@ -18,6 +18,6 @@ sentences = [' '.join(sentence_token) for sentence_token in sentences]
 print(sentences[0:5])
 
 #Field based acccess
-print(reuters.fileids(categories =["housing","income"]))
+print(reuters.fileids(categories =["housing","income"]))    #printing all file id's of housing and income categories
 
-print(reuters.sents(fileids = ['test/16118', 'test/18672']))
+print(reuters.sents(fileids = ['test/16118', 'test/18672'])) #printing specifi file id's.
