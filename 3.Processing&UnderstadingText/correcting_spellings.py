@@ -3,6 +3,8 @@
 Created on Fri APR 27 15:54
 
 @author: Bhavani
+
+
 """
 import re,collections
 import io
@@ -115,3 +117,4 @@ res = correct_text_generic(word)
 print(res)
 '''
 
+#Note : we can check them out use for correcting the word spell using pattern module(with suggest method) , pyEnchant(enchant) and aspell python around GNU Aspell
