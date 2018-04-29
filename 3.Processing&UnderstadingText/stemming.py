@@ -11,6 +11,7 @@ One of the most popular stemmers is the PorterStemmer.  There also exists poter2
 """
 
 #Porterstemmer
+import collections
 from nltk.stem import PorterStemmer
 ps = PorterStemmer()
 
@@ -25,7 +26,9 @@ from nltk.stem import LancasterStemmer
 ls = LancasterStemmer()
 for w in words_list:
     print(ls.stem(w))
-
+stem_word_list = [ls.stem(w) for w in words_list]
+print(stem_word_list.count('jump'))
+print(stem_word_list)
 print(ls.stem("lying"))
 print(ls.stem("strange"))
 
