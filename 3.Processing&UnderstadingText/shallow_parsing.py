@@ -8,11 +8,6 @@ Created on Sun APR 29 17:18 PM,2018.
 #Recommended shallow parsers.
 
 # -*- coding: utf-8 -*-
-"""
-Created on Mon Aug 15 22:22:02 2016
-
-@author: DIP
-"""
 
 from pattern.en import parsetree, Chunk
 from nltk.tree import Tree
