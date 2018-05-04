@@ -13,7 +13,7 @@ def bow_extractor(corpus, ngram_range=(1, 1)):
     print( vectorizer.vocabulary_)
     #print(vectorizer.vocabulary)
     #print(vectorizer.fixed_vocabulary_)
-    #print(features)
+
     return vectorizer, features
 
 CORPUS = [
