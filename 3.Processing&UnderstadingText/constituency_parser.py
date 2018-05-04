@@ -81,4 +81,4 @@ viterbi_parser = nltk.ViterbiParser(treebank_grammar)
 result = list(viterbi_parser.parse(tokens))
 
 print result[0]
-result[0].draw()                  
+result[0].draw()
